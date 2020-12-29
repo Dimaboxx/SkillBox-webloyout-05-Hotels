@@ -1,0 +1,47 @@
+
+.special{
+  min-height: 620px;
+}
+
+.special-item{
+  width: 595px;
+  height: 540px;
+  margin-top: 15px;
+  padding-top: 264px ;
+  padding-left: 41px;
+  background-image: url("../img/22.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.special-heding{
+  width: 330px;
+  padding-bottom: 26px;
+  font-size: 66px;
+  color: #fff;
+  /* font-family: "Muller", sans-serif; */
+  font-weight: bold;
+  line-height: 0.9;
+}
+
+.special-price{
+  display: inline;
+  font-size: 35px;
+  color: #fff;
+  opacity: 49%;
+}
+
+.special-more{
+  margin-left: 40px;
+  /* padding-right: 20px; */
+  font-size: 16px;
+  color: #ffcc66;
+  /* background-image: url("/img/Прямоугольник 2 копия 7.svg"); */
+  /* background-repeat: no-repeat; */
+  /* background-position-x: right; */
+}
+
+/* .fa-angle-right{
+  color: #ffcc66;
+} */

@@ -1,0 +1,63 @@
+.services{
+  margin-top: 55px;
+  margin-bottom: 18px;
+}
+.services-list{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-between;
+}
+.services-item{
+  width: 572px;
+  height: 325px;
+  padding-left: 44px;
+  padding-top: 196px;
+  flex-grow: 0;
+
+  border-radius: 12px;
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+}
+
+.services-item:nth-child(n+3){
+  margin-top: 24px;
+}
+.services-one{
+  background-image: url("../img/10.png");
+}
+
+.services-two{
+  background-image: url("../img/15.png");
+}
+
+.services-three{
+
+  background-image: url("../img/12.png");
+}
+.services-four{
+
+  background-image: url("../img/carlo-d-agnolo-aFxSh_l4fbY-unsplash.png");
+}
+
+.services-item-heading{
+  /* padding-right: 20px; */
+  font-size: 22px;
+  color: #cc9933;
+  /* background-image: url("/img/Прямоугольник\ 2\ копия\ 7.svg"); */
+  /* background-repeat: no-repeat; */
+  /* background-position:  right; */
+}
+
+/* .fa-angle-right{
+  color: #cc9933;
+} */
+.services-item-description{
+  margin-top: 5px;
+  font-size: 16px;
+  color: #333333;
+  line-height: 2;
+  margin-right: 130px;
+}

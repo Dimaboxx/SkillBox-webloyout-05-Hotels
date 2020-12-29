@@ -1,0 +1,125 @@
+
+
+.accommodation{
+  margin-top: 60px;
+}
+
+
+.accommodation-list{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-between;
+}
+
+
+.accommodation-item{
+  width: 373px;
+  height: 441px;
+  /* padding:  250px 40px 45px 40px; */
+
+  /* padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 250px;
+  padding-bottom: 50px; */
+  flex-grow: 0;
+  color: #333333;
+  border-radius: 12px;
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+
+}
+
+
+.accomodation-article{
+  width: 100%;
+  height: 100%;
+
+  /* display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between; */
+  font-size: 16px;
+  color: #333;
+}
+
+.accomodation-item-desc{
+  /* width: 100%; */
+  margin-top: 28px;
+  margin-left: 45px;
+  position: relative;
+  /* padding:  30px 40px 45px 40px; */
+  /* min-height: 225px; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.accommodation-right{
+  padding-top: 5px;
+  padding-right: 40px;
+}
+
+/* sds */
+.accommodation-item:nth-child(n+4){
+  margin-top: 25px;
+}
+
+.accommodation-price-begin{
+color: #969696;
+}
+
+.accommodation-price{
+  /* font-family: "Muller", sans-serif; */
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.img-star{
+  height: 15px;
+  margin-right: 2px;
+}
+.accommodation-name{
+  margin-top: 13px;
+  margin-left: 45px;
+  font-size: 16px;
+}
+
+.accommodation-place{
+  margin-top: 13px;
+  margin-left: 45px;
+  color: #999;
+}
+
+
+.accommodation-show{
+  width: 100px;
+display: block;
+margin-top: 20px;
+margin-left: 45px;
+padding:10px 20px 10px 20px ;
+border-radius: 12px;
+border: 1px solid #cc9933;
+font-size: 16px;
+/* font-family: "Muller", sans-serif; */
+font-weight: bold;
+color: #cc9933;
+background-color: #ffffff;
+cursor: pointer;
+}
+
+
+.accommodation-exta-item{
+  padding-top: 365px;
+  padding-left: 40px;
+  background-image:url("../img/41.png");
+}
+
+.accommodation-show-all{
+  color: #fff;
+  font-size: 22px;
+  font-weight: normal;
+}
